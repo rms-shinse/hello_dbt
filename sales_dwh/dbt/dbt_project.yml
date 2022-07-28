@@ -1,0 +1,6 @@
+name: sizer_sales_shop
+version: "1.0.0"
+config-version: 2
+profile: sizer_sales_shop
+models:
+  sizer_sales_shop:
