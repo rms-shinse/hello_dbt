@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: sales_by_person
+    description: One record per sales person
+    columns:
+      - name: person
+        tests:
+          - unique
+          - not_null
+      - name: sales
+        description: sum of contracts.amount
